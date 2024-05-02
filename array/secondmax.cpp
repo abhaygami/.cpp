@@ -8,12 +8,12 @@ int main()
     {
         cin>>a[i];
     }
-    l=a[0];
+    l=INT32_MIN;
     for(int i=1;i<5;i++)
     {
         l=max(l,a[i]);
     }
-    sl=a[0];
+    sl=INT32_MIN;
     for(int i=0;i<5;i++)
     {
         if(a[i]!=l)
