@@ -18,10 +18,6 @@ public:
         *cgpaptr = *obj.cgpaptr;  // copy the value
     }
 
-    // ~student() {  // destructor to free the allocated memory
-    //     delete cgpaptr;
-    // }
-
     void display() {
         cout << "Name : " << name << endl;
         cout << "CGPA : " << *cgpaptr << endl;
